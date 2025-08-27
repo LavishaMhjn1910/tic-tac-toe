@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Tic Tac Toe</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="app">
+<h1>Tic Tac Toe</h1>
+<div class="meta">
+<div class="score"><div id="scoreX">X: 0</div><div id="scoreT">Ties: 0</div><div id="scoreO">O: 0</div></div>
+<div style="font-size:13px;color:var(--muted)" id="turnIndicator">Turn: X</div>
+</div>
+
+
+<div class="board" id="board">
+<!-- 9 cells inserted by JS -->
+</div>
+
+
+<div class="status" id="message">Make a move — X starts</div>
+
+
+<div class="controls">
+<button class="btn" id="resetBtn">Reset Board</button>
+<button class="btn primary" id="newGameBtn">New Game (Scores reset)</button>
+</div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
